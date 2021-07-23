@@ -7,7 +7,7 @@
    data-icons="Climacons Animated" 
    data-mode="Current" 
    data-theme="beige">HỒ CHÍ MINH WEATHER
-   background-color: white;
+
 </a>
 <script>
   ! function(d, s, id) {
@@ -58,6 +58,7 @@ body {
   font-size: 4em;
   text-align: center;
 }
+ 
  .white {
   position: absolute;
   background: #ffffff;
@@ -66,13 +67,11 @@ body {
   left: 30%;
   top: 2%;
 }  
-       
     </style>
 </head>
 <body>
     
 <div id="timer">
-
     <div class="days"> 
         <div id="days" class="numbers "> </div>days</div> 
       <div class="hours"> 
@@ -82,7 +81,6 @@ body {
       <div   class="seconds"> 
         <div id="seconds" class="numbers"> </div>seconds</div> 
       </div>
-
 </div>
 
 </body>
@@ -111,8 +109,6 @@ let timer = setInterval(function() {
   document.getElementById("hours").innerHTML=hours
   document.getElementById("minutes").innerHTML=minutes
   document.getElementById("seconds").innerHTML=seconds
-
-
 
 }, 1);
 </script>
